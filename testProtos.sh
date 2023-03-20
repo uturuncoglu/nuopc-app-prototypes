@@ -42,6 +42,8 @@ testResult[count]="FAIL"
 fi
 mkdir -p ../$RESULTSDIR
 cp $2.stdout ../$RESULTSDIR/$1.stdout
+cat $2.stdout
+cat ../$RESULTSDIR/$1.stdout
 cat PET*.ESMF_LogFile > ../$RESULTSDIR/$1.Log
 echo FINISHED: $1
 cd ..
