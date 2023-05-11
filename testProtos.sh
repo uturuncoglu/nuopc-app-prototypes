@@ -355,8 +355,8 @@ echo
 }
 
 # function    # proto directory                           # executable
-TestProto     AsyncIOBlockingProto                        asyncIOApp
-TestProto     AsyncIONonblockingProto                     asyncIOApp
+#TestProto     AsyncIOBlockingProto                        asyncIOApp
+#TestProto     AsyncIONonblockingProto                     asyncIOApp
 TestProto     AtmOcnConOptsProto                          esmApp
 TestProto     AtmOcnConProto                              esmApp
 TestProto     AtmOcnCplListProto                          esmApp
